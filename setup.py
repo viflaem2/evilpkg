@@ -1,7 +1,6 @@
 from setuptools import setup
-import os
 
-echo a
+print("test")
 
 setup(
     name='evilpkg',
